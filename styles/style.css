@@ -7,8 +7,27 @@ header {
     background: #193861;
 }
 
+#navigation {
+    float: right;
+    margin-top: 18px;
+}
+
+#navigation a {
+    font-family: 'Oswald', sans-serif;
+    color: #fff;
+    text-decoration: none;
+    padding: 20px;
+    font-size: 24px;
+}
+
+#navigation a:hover {
+    color: #d4c2a9;
+}
+
+
+
 h1, h2, h3, h4, h5, h6 {
-    font-family: 'Oswald', sans-serif;;
+    font-family: 'Oswald', sans-serif;
 }
 
 nav {
@@ -16,6 +35,55 @@ nav {
     margin: 0 auto;
     overflow: hidden;
     padding: 20px;
+}
+
+#section-one {
+    background: #e8f1f2;
+    text-align: center; 
+}
+
+#section-one img {
+    width: 800px;
+    padding: 30px 0;
+}
+
+#section-one nav a {
+  font-family: 'Oswald', sans-serif;
+  text-decoration: none;
+  color: #376fa1;
+  padding: 20px;
+  font-size: 24px; 
+}
+
+#section-one nav a:hover {
+    color: #a98e69;
+}
+
+#section-one h1 {
+    font-size: 50px;
+}
+
+.wrap {
+    width: 1200px;
+    padding: 20px;
+    margin: 0 auto;
+}
+
+#section-two {
+    background: url("../images/computerkeyboard.jpg") no-repeat;
+    padding: 50px;
+}
+
+#section-two .wrap {
+    background: rgba(0, 0, 0, 0.7);
+    border-radius: 1%;
+    color: #ccc;
+    padding: 20px 40px;
+    width: 720px;
+}
+
+#section-two .wrap a {
+    color: #ccc;
 }
 
 p, li {
@@ -34,3 +102,43 @@ font-family: sans-serif;
     color: #256edb;
     font: size 24px;
 }
+
+#section-three {
+    padding: 30px;
+}
+
+#section-three .wrap {
+    overflow: hidden;
+}
+
+#section-three .wrap #img {
+    width: 48%;
+    float: left;
+    padding-right: 4%;
+}
+
+#section-three .wrap #img img {
+    width: 100%;
+}
+
+#section-three .wrap #text {
+    width: 48%;
+    float: left;
+}
+
+#section-three h2 {
+    margin-top: 0;
+}
+
+footer {
+    background: #603b4c;
+    text-align: center;
+    padding: 20px;
+    color: #fff;
+}
+
+.logo.footer {
+    float: none;
+}
+
+/* About Page*/
