@@ -142,3 +142,35 @@ footer {
 }
 
 /* About Page*/
+#about-section-two {
+    background: url('../images/technology.jpg') no-repeat;
+    padding: 30px;
+}
+
+#about-section-two .wrap {
+    overflow: hidden;
+}
+
+#about-section-two .wrap #img {
+    width: 48%;
+    float: left;
+    padding-right: 4%;
+}
+
+#about-section-two .wrap #img img {
+    width: 90%;
+}
+
+#about-section-two .wrap #text {
+    width: 48%;
+    float: left;
+    margin-bottom: 5px;
+}
+
+#about-section-two h2 {
+    margin-top: 0;
+}
+
+#about-section-two h4 {
+    margin: 15px 0;
+}
